@@ -1,0 +1,42 @@
+$cream: #FCFDF8;
+$gray: #bcc4d3;
+$blue: #27354F;
+
+$body-font: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+$header-font: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+
+html, body {
+  background: $cream;
+  text-align: center;
+  font-family: $body-font;
+  font-size: 100%;
+  padding:0px;
+  margin:0px;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.project {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid;
+  padding:20px;
+  width:250px;
+  height: 75px; 
+  margin: 20px;
+}
+

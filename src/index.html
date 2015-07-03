@@ -1,0 +1,26 @@
+---
+title: Chris Helm Portfolio
+layout: _layout:main
+items:
+  - title: County Climate
+    id: cclimate
+    url: http://
+  - title: Wind Viz
+    id: wind
+    url: http://
+  - title: Temp Map 
+    id: temps
+    url: http://
+  - title: FreshyMap
+    id: fm
+    url: http://
+---
+
+<h1>Chris Helm</h1>
+<ul>
+{% for item in items %}
+  <li>
+    <div class="project">{{ item.title }}</div>
+  </li>
+{% endfor %}
+</ul>

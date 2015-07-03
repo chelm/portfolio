@@ -1,0 +1,13 @@
+---
+items: 
+  - title: Project1
+    id: 1
+  - title: Project2
+    id: 2
+---
+
+<ul>
+{% for item in items %}
+  <li>{{ item.title }}</li>
+{% endfor %}
+</ul>
